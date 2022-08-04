@@ -6,6 +6,7 @@ pwd
 ```bash
 mcdir
 ```
+```
 3. Зайти в папку
 ```bash
 cd fld
