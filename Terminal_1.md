@@ -6,7 +6,6 @@ pwd
 ```bash
 mcdir
 ```
-```
 3. Зайти в папку
 ```bash
 cd fld
@@ -15,4 +14,11 @@ cd fld
 ```bash
 mkdir fld_{1,2,3}
 ```
+5 Зайти в любую папку
+```bash
+
+```
+6 Создать 5 файлов (3 txt, 2 json)
+```bash
+
 
