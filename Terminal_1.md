@@ -6,3 +6,12 @@ pwd
 ```bash
 mcdir fld
 ```
+3. Зайти в папку
+```bash
+cd fld
+```
+4. Создать 3 папки
+```bash
+mkdir fld_{1,2,3}
+```
+
