@@ -4,7 +4,7 @@ pwd
 ```
 2. Создать папку
 ```bash
-mcdir fld
+mcdir
 ```
 3. Зайти в папку
 ```bash
