@@ -90,9 +90,10 @@ less doc_1.txt
 ```bash
 date
 ```
-21. Отправить http-запрос на сервер
+21. Отправить http-запрос на сервер http://162.55.220.72:5005/terminal-hw-request
 ```bash
-
+curl http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5005/get_method\?name\=\(\Alena\)\&age\=\(\37\)
 ```
 20. Написать скрипт автоматического выполнения пунктов 3, 4, 5, 6, 7, 8, 13
 ```bash
