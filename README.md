@@ -1,2 +1,2 @@
-# Git-Bash
+# GitBash
 Basic commands
