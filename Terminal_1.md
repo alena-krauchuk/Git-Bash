@@ -101,4 +101,15 @@ curl http://162.55.220.72:5005/get_method\?name\=\(\Alena\)\&age\=\(\18\)
 ```bash
 cd fld && mkdir fld_{1,2,3} && cd fld_1 && touch doc_{1,2,3}.txt docum_{1,2}.json && mkdir fld_1_{1,2,3} && ls -la && mv doc_{1,3}.txt fld_1_1/
 ```
+или
+```bash
+sh script_#1.sh
+#!/bin/bash
 
+cd fld
+mkdir fld_{1,2,3}
+cd fld_1
+touch doc_{1,2,3}.txt docum_1{1,2}.json
+mkdir fld_1_{1,2,3}
+ls -la
+mv doc_{1,3}.txt fld_1_1/
