@@ -105,20 +105,22 @@ cd fld && mkdir fld_{1,2,3} && cd fld_1 && touch doc_{1,2,3}.txt docum_{1,2}.jso
 ```bash
 Создать файл [имя файла].sh
 
-В первой строке файла указать путь  #! + [путь к bash]  
+В первой строке файла указать путь  #! + [путь к bash] - (это для Windows):  
 #!/bin/bash
+
 
 В остальных строках файла - команды скрипта:
 
 cd fld
 mkdir fld_{1,2,3}
 cd fld_1
-touch doc_{1,2,3}.txt docum_1{1,2}.json
+touch doc_{1,2,3}.txt docum_1_{1,2}.json
 mkdir fld_1_{1,2,3}
 ls -la
 mv doc_{1,3}.txt fld_1_1/
 
+
 Команда запуска скрипта в консоли:
 
-sh script_#1.sh
+sh [имя файла].sh
 
