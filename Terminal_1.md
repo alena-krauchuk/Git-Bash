@@ -112,7 +112,7 @@ cd fld && mkdir fld_{1,2,3} && cd fld_1 && touch doc_{1,2,3}.txt docum_{1,2}.jso
 cd fld
 mkdir fld_{1,2,3}
 cd fld_1
-touch doc_{1,2,3}.txt docum_1_{1,2}.json
+touch doc_{1,2,3}.txt docum_{1,2}.json
 mkdir fld_1_{1,2,3}
 ls -la
 mv doc_{1,3}.txt fld_1_1/
