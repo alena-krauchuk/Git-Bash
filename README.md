@@ -1,5 +1,4 @@
 # GitBash
-Basic commands
 
 
 GitBash
