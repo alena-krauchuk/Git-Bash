@@ -36,7 +36,7 @@ Ctrl+C
 ```
 7. Зайти в папку inner_dir_1
 ```bash
-cd inner_dir_1/
+cd inner_dir_1
 ```
 8. Через cat создать текстовый файл tf_3.txt с любыми строками
 ```bash
@@ -57,7 +57,7 @@ Ctrl+C
 cat >> tf_3.txt
 
 - вводим текст:
-the second <Enter>
+the second 2 <Enter>
 
 - закрываем режим редактирования:
 Ctrl+C
@@ -140,7 +140,7 @@ cat inner_dir_1/tf_3.txt
 ```
 19. Найти путь к файлу tf_4.txt
 ```bash
-find -name tf_4.txt
+find . -name tf_4.txt
 ```
 20. Очистить файл tf_4.txt от содержимого без удаления самого файла
 ```bash
@@ -148,9 +148,11 @@ echo > inner_dir_1/tf_4.txt
 ```
 21. Найти путь к файлам, в названии которых есть "tf" 
 ```bash
-find -name "tf*"
+find . -name "tf*"
 ```
 22. Найти пут к файлам, в названии которых есть "tf" (буквы в любом регистре)
 ```bash
-find -iname "tf*"
+find . -iname "tf*"
 ```
+23. Найти строки в файлах, где есть комбинация букв "sec" в текущей папке
+```bash
