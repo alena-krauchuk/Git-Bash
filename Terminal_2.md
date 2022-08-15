@@ -140,7 +140,7 @@ cat inner_dir_1/tf_3.txt
 ```
 19. Найти путь к файлу tf_4.txt
 ```bash
-find -name tf_4.txt
+realpath -e inner_dir_1/tf_4.txt
 ```
 20. Очистить файл tf_4.txt от содержимого без удаления самого файла
 ```bash
