@@ -184,7 +184,9 @@ grep -nr "second" */
 ```
 30. Найти в текущей папке только путь и названия файлов, строки которых содержат комбинацию букв "second"
 ```bash
-find -name $(grep -l "second" *.*)
+realpath -e $(grep -l "second" *.*)
+или
+grep -l second *.* | xargs realpath -e
 ```
 31. Найти все строки во всех файлах, не содержащие комбинацию букв "second"
 ```bash
