@@ -68,17 +68,21 @@ cp fld_2/doc_{1,3}.txt fld_1/fld_1_3/
 ```
 15. Найти файл по имени
 ```bash
-find -depth -name "docum_1.json"
+find -name docum_1.json
 ```
 16. Просмотреть содержимое файла в реальном времени
 ```bash
-tail -f fld_1/doc_1.txt
+tail -f ./fld_1/doc_1.txt
 
 Ctrl+C   (для окончания просмотра)
 ```
 Простой просмотр содержимого файла
 ```bash
-tail fld_1/doc_1.txt
+tail ./fld_1/doc_1.txt
+```
+Просмотр новых строк файла с конкретным термином, с показом 3 строк до и после искомого термина
+```bash
+tail -f log_file | grep -C 3 search-term
 ```
 Провести поиск по тексту файла
 ```bash
