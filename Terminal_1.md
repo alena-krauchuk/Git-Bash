@@ -4,7 +4,7 @@ pwd
 ```
 2. Создать папку
 ```bash
-mcdir fld
+mkdir fld
 
 или
 
